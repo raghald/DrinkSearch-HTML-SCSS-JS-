@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projekt #9 - JS - wyszukiwarka napojów</title>
+    <script src="https://kit.fontawesome.com/51a16c7da9.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Open+Sans:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="top">
+            <div class="top__shadow"></div>
+            <h1 class="top__title">DrinkSearch</h1>
+            <input type="text" class="top__drink-input search" placeholder="Wpisz nazwę szukanego napoju">
+            <input type="text" class="top__drink-input add" placeholder="Dodaj napój do listy">
+            <p class="top__error">Podaj nazwę</p>
+        </div>
+        <div class="bottom">
+            <h2 class="bottom__title">Lista dostępnych napojów: </h2>
+            <ul class="bottom__list-items">
+                <li class="bottom__item">Mleko</li>
+                <li class="bottom__item">Piwo</li>
+                <li class="bottom__item">Whisky</li>
+                <li class="bottom__item">Pepsi</li>
+                <li class="bottom__item">Woda gazowana</li>
+                <li class="bottom__item">Sok jabłkowy</li>
+                <li class="bottom__item">Sok pomarańczowy</li>
+                <li class="bottom__item">Sok bananowy</li>
+                <li class="bottom__item">Sok wieloowocowy</li>
+                <li class="bottom__item">Wino czerwone</li>
+                <li class="bottom__item">Wino białe</li>
+                <li class="bottom__item">Woda niegazowana</li>
+                <li class="bottom__item">Energy drink</li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
