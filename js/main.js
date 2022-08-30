@@ -4,8 +4,10 @@ let drinks = document.querySelectorAll('.bottom__item');
 let drinksList = document.querySelector('.bottom__list-items');
 let error = document.querySelector('.top__error');
 
-const searchEngine = e => {
-	const text = e.target.value.toLowerCase();
+console.log(inputLabel.value);
+
+const searchEngine = () => {
+	const text = inputLabel.value.toLowerCase();
 
 	drinks.forEach(drink => {
 		if (drink.textContent.toLowerCase().indexOf(text) !== -1) {
